@@ -3,62 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administration</title>
+    <title>Administration - Maaji Seed School</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            margin: 20px;
         }
-        .admin-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 20px -10px;
-        }
-        .admin-member {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            width: 200px;
-            margin: 10px;
+        h1 {
             text-align: center;
-            padding: 20px;
         }
-        .admin-member img {
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .profile {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            margin: 10px;
+            width: 200px;
+            box-shadow: 2px 2px 12px #aaa;
+        }
+        img {
             width: 100%;
-            height: auto;
-            border-radius: 50%;
+            border-radius: 8px;
         }
-        .admin-member h3 {
-            margin: 10px 0 0;
-            font-size: 1.5em;
+        .logo {
+            width: 80px;
+            height: 80px;
         }
     </style>
 </head>
 <body>
-    <h1>Board of Governors</h1>
-    <div class="admin-container">
-        <div class="admin-member">
-            <img src="placeholder.jpg" alt="Board Member 1">
-            <h3>Board of Governors</h3>
+    <header>
+        <img src="logo.png" alt="Maaji Seed School Logo" class="logo">
+        <h1>School Administration</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="BoG">
+            <h2>Board of Governors (BoG)</h2>
         </div>
-        <div class="admin-member">
-            <img src="placeholder.jpg" alt="PTA">
-            <h3>PTA</h3>
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="PTA">
+            <h2>Parent-Teacher Association (PTA)</h2>
         </div>
-        <div class="admin-member">
-            <img src="placeholder.jpg" alt="Headteacher">
-            <h3>Headteacher</h3>
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Headteacher">
+            <h2>Headteacher</h2>
         </div>
-        <div class="admin-member">
-            <img src="placeholder.jpg" alt="Deputy Headteacher">
-            <h3>Deputy Headteacher</h3>
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Deputy Headteacher">
+            <h2>Deputy Headteacher</h2>
         </div>
-        <div class="admin-member">
-            <img src="placeholder.jpg" alt="Deputy Headteacher 2">
-            <h3>Deputy Headteacher 2</h3>
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Deputy Headteacher 2">
+            <h2>Deputy Headteacher 2</h2>
         </div>
     </div>
 </body>
